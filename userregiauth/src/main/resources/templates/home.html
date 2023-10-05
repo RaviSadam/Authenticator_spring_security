@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautiful Home Page</title>
+    <style>
+        /* Apply a linear gradient background */
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #3498db, #e74c3c);
+            font-family: Arial, sans-serif;
+            color: #fff;
+            position: relative; /* Added to position buttons */
+        }
+
+        /* Create a header with a navigation menu */
+        header {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            text-align: center;
+            position: relative; /* Added to position buttons */
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        nav {
+            margin-top: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        /* Create a hero section */
+        .hero {
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        .hero h2 {
+            font-size: 48px;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 24px;
+        }
+
+        /* Create a call-to-action button */
+        .cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #2ecc71;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+
+        /* Create a footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+            position: relative; /* Added to position buttons */
+        }
+
+        /* Style for buttons */
+        .top-buttons {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+        .top-buttons {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+
+        /* Style for Submit button */
+        .top-buttons button {
+            background-color: #2ecc71;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            margin-left: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Style for Logout button */
+        .top-buttons button.logout {
+            background-color: #e74c3c;
+        }
+        .top-buttons a.button {
+            background-color: rgb(232, 56, 56);
+            color: #fff;
+            display: inline-block;
+            padding: 10px 20px;
+            margin-left: 10px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Beautiful Home Page</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Buttons for Submit and Logout -->
+    <form class="top-buttons">
+        <a href="http://localhost:8080/logout" class="button">Logout</a>
+    </form>
+
+    <div class="hero">
+        <h2>Welcome to Our Website</h2>
+        <p>Discover amazing content and services.</p>
+        <a href="#" class="cta-button">Get Started</a>
+    </div>
+
+    <footer>
+        &copy; 2023 Beautiful Home Page
+    </footer>
+</body>
+</html>
